@@ -1,0 +1,360 @@
+/**{
+  border: 1px solid red;
+}*/
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+p{
+  font-family: 'Dosis', sans-serif;
+}
+a,a:link,a:visited,a:hover,a:active{
+  text-decoration: none;
+}
+.fullpage{
+  background-image: url(../img/backstretch.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.top-decorations{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(../img/top-decorations.png);
+  width: 100%;
+  height: 10px;
+  z-index: 50000;
+}
+.name-info{
+  height: 95vh;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.name-info img{
+  border: 3px solid #5b9bbc;
+}
+.name-info h1{
+  text-transform: uppercase;
+  font-weight: 900;
+  border-bottom: 3px solid #5b9bbc;
+  margin-bottom: 5px;
+}
+.name-info h3{
+  margin: 5px;
+}
+.name-info a{
+  font-size: 1em;
+}
+.name-info a:hover{
+  text-decoration: none;
+  color: #eee;
+}
+nav{
+  text-align: center;
+}
+nav a{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 6px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+nav a:visited{
+  color: #eee;
+}
+nav a:hover{
+  text-decoration: none;
+  color: #eee;
+}
+nav a:focus,a:active{
+    color: #eee;
+}
+nav a span{
+  display: none;
+}
+.navbar-fixed-top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(13,44,90);
+  background-position: center;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20000;
+  padding-top: 10px;
+}
+.active_nav{
+  color: #eee;
+  border-bottom: 2px solid #eee;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+}
+.heading h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 3px solid #5b9bbc;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
+}
+.pageInfo .container-fluid{
+  background-color: #f0f0f0;
+}
+.pageInfo .container-fluid section .heading h2{
+  border-bottom: 3px solid #ff6f69;
+}
+#ScrollProfile .col-md-4{
+  margin: 0 0 50px 0;
+}
+#ScrollProfile .col-md-4 h4{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+#ScrollProfile .col-md-4 p{
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+#ScrollProfile .col-md-4 li{
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+#ScrollProfile .col-md-4 .col-md-3{
+  margin-top: 10px;
+}
+.fa{
+  font-size: 40px;
+  text-align: center;
+}
+#ScrollResume{
+  text-align: center;
+}
+#and{
+  font-size: 20px;
+}
+.underline{
+  background-color: #ff6f69;
+  width: 25%;
+  height: 2px;
+}
+#ScrollResume h4{
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.qulifications{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.qulifications h5{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin: 15px 0;
+}
+.qulifications h6{
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Dosis', sans-serif;
+}
+.qulifications h6 span{
+  font-weight: bolder;
+}
+.graduation{
+  margin: 30px 0;
+}
+#ScrollSkill h3{
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.additional-skills .row .col-md-4{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.additional-skills .row .col-md-4 label{
+  font-size: 18px;
+  font-weight: lighter;
+}
+.portNav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.portNav button{
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
+}
+.portNav button:hover{
+  color: #ff6f69;
+}
+.dot{
+  width: 5px;
+  height: 5px;
+  background-color: #ff6f69;
+  border-radius: 100%;
+}
+.portContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 40px 0;
+}
+.portContent > button{
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+.portContent button i{
+  font-size: 60px;
+  color:  #A4C639;
+}
+.portContent .modal{
+  margin-top: 60px;
+}
+.modal-content .modal-header button span{
+  font-size: 35px;
+}
+.modal-content .modal-header h3{
+  text-align: center;
+}
+.modal-content .screenshot{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.modal-content .modal-body{
+  margin: 10px 10px;
+}
+.modal-content .description p, ol li{
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+}
+.play-store img{
+  width: 140px;
+  height: 54px;
+}
+#thankyou .modal-body{
+  text-align: center;
+  text-transform: lowercase;
+}
+#ScrollContact{
+  background-color: rgb(13,44,90);
+  width: 100%;
+  height: 100vh;
+}
+#ScrollContact .heading h2{
+  color: #eee;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.mailingForm form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mailingForm form .form-group{
+  text-align: center;
+  width: 280px;
+  margin: 10px 0;
+}
+.mailingForm form .form-group label{
+  color: #eee;
+  font-size: 17px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+.mailingForm form button{
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.mailingForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mailingForm a{
+  color:#eee;
+  font-size:15px;
+  border-top:2px solid #5b9bbc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+@media only screen and (min-width:500px){
+  .name-info img{
+    height: 200px;
+    width: 200px;
+  }
+  nav a{
+    margin: 0 10px;
+  }
+  nav a span{
+    display: inline-block;
+  }
+  .portNav button{
+    font-size: 18px;
+  }
+  .dot{
+    margin: 0 5px;
+  }
+  .portContent button{
+    font-size: 15px;
+    margin: 0 15px;
+  }
+  .portContent button i{
+    font-size: 100px;
+  }
+  .portContent button img{
+    width: 100px;
+    height: 100px;
+  }
+  .modal-content .modal-body{
+    margin: 10px 50px;
+  }
+  .mailingForm form .form-group{
+    width: 350px;
+    margin: 20px 0;
+  }
+}
